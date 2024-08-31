@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three-Column Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh; 
+        }
+        .left, .middle, .right {
+            padding: 10px;
+        }
+        .left {
+            background-color: green; 
+            width: 20%;
+        }
+        .middle {
+            background-color: #ffffff; 
+            width: 60%;
+        }
+        .right {
+            background-color: red; 
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>Left Frame</h2>
+            <p>This is the left frame, taking up 20% of the width.</p>
+        </div>
+        <div class="middle">
+            <h2>Middle Frame</h2>
+            <p>This is the middle frame, taking up 60% of the width.</p>
+        </div>
+        <div class="right">
+            <h2>Right Frame</h2>
+            <p>This is the right frame, taking up 20% of the width.</p>
+        </div>
+    </div>
+</body>
+</html>
